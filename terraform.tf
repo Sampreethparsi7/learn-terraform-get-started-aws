@@ -1,9 +1,9 @@
 terraform {
   cloud {
-    organization = "your-organization-name"
+    organization = "Sampreeth"
 
     workspaces {
-      project = "Learn Terraform"
+      project = "Default Project"
       name = "learn-terraform-aws-get-started"
     }
   }
