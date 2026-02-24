@@ -10,7 +10,7 @@ data "aws_ami" "ubuntu" {
     values = ["ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-arm64-server-*"]
   }
 
-  owners = ["099720109477"] # Canonical
+  owners = ["938064476124"] # Canonical
 }
 
 module "vpc" {
